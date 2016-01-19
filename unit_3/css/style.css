@@ -1,0 +1,50 @@
+h1 {
+text-align: center;
+
+}
+
+ul {
+	list-style-type: none;
+	margin-bottom: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(98, 58, 21);
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 18px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+}
+
+.offscreen {
+	position: absolute;
+	top: -30em;
+	left: -300em
+}
+
+.text {
+	font-family: Helvetica, sans-serif;
+	color: black;
+	font-weight: 30;
+}
+
+img.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	color: black;
+	font-family: Helvetica, sans-serif;
+}
