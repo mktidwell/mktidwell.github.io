@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Carrois+Gothic);
+@import url(https://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
+@import url(https://fonts.googleapis.com/css?family=Marcellus);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+	background-color: #666666;
+	font-size: 62.5%; 
+	margin: 0 auto 0 auto
+}
+
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background-color: white;
+	height: auto; 
+	margin-top:10px;
+}
+
+
+header {
+	width:960px;
+	margin: 0 auto;
+	padding: 20px;*/
+	background-color: #FFED74;
+}
+
+header img{
+	display: block;
+	margin: auto;
+	background-color: #FFED74;
+}
+
+#topnav {
+/* padding: .5em;*/
+	height: 30px;
+	margin-bottom: 20px;
+	background-color: black;
+	text-align: center;
+	background-color: #E8C66A;
+}
+
+#topnav ul {
+	list-style: none;
+	margin: 0px; /*Overwrite default */  
+	padding-top: 5px;
+}
+
+#topnav li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#topnav li a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.4em;
+	font-family: 'Carrois Gothic', sans-serif; 
+	padding:1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+#homepageimage {
+	/*display: block;*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1px;
+	width: 960px;
+	height: 315px;
+	/*border: 1px solid #021a40;*/
+}
+
+
+#MainContent {
+	width: 490px;
+	margin: 38px auto 20px auto;
+	line-height: 25px;
+	font-family: 'Carrois Gothic', sans-serif;
+	font-size: 1.3em;
+	background-color: #FFE2B8;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#info {
+	width: 920px;
+	height: 220px;
+	align: block-inline;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+
+.menu {
+	width: 440px;
+	height: 220px;
+	float: left;
+	margin-left: 10px;
+	background-color:  #FFE2B8;
+}
+
+.specials {
+	width: 440px;
+	background-color:  #FFE2B8;
+	height: 220px;
+	float: right;
+	margin-right: 10px;
+}
+
+footer {
+	width: 960px;
+	bottom: 0;
+	text-align: center;
+	background-color: #FF957E;
+}
+
+
+#bottommenu {
+	bottom: 0;
+	text-align: center;
+	width: 960px;
+	height: 100px;
+	display: inline;
+	list-style: none;
+}
+
+
+#bottommenu ul li {
+	width: 475px;
+	display: inline;
+	margin-left: 0.8px;
+	margin-right: 0.8px;
+	list-style: none;
+}
+
+#bottommenu li a {
+	color: black;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: "Carrois Gothic", sans-serif;
+	padding: 0.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p Copyright {
+	margin-right: 10px;
+	margin-left: 19px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-family: "Carrois Gothic", sans-serif;
+	text-align: center;
+}
+
+#Copyright p {
+	font-family: "Carrois Gothic", sans-serif
+	font-size: 1em;
+}
